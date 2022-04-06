@@ -10,9 +10,9 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
     return (
         <div className="grid grid-cols-2 -mx-px border-t border-l border-gray-500 sm:mx-0 md:grid-cols-3 lg:grid-cols-4">
             {products.map((product) => {
-                const price = product.price.toLocaleString('Be-fr', {
-                    currency: 'eur',
-                    maximumFractionDigits: 2,
+                const priceEuro = product.price.toLocaleString('fr-be', {
+                    style: 'currency',
+                    currency: 'EUR',
                 });
 
                 return (
@@ -44,7 +44,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                                 </p>
                             </div>
                             <p className="mt-4 text-base font-medium text-gray-200 group-hover:text-gray-800">
-                                {price} €
+                                {priceEuro}
                             </p>
                         </div>
                     </div>
