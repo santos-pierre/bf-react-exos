@@ -37,9 +37,6 @@ const RowTable: React.FC<Student> = ({ lastname, firstname, result }) => {
 const StudentTable: React.FC<StudentTableProps> = ({ students }) => {
     return (
         <>
-            <h1 className="py-10 font-bold text-center underline uppercase transition-all duration-500 select-none text-7xl decoration-react hover:decoration-gray-200 hover:text-react">
-                Students Tables
-            </h1>
             <table className="min-w-full divide-y divide-gray-300">
                 <thead>
                     <tr>

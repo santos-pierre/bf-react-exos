@@ -4,3 +4,12 @@ export type Student = {
     lastname: string;
     result: number | null;
 };
+
+export type Product = {
+    id: number;
+    name: string;
+    price: number;
+    promo: boolean;
+    rating: number;
+    countReview: number;
+};

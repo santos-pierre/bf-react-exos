@@ -1,16 +1,17 @@
-import StudentTable from '../components/StudentTable';
+import ProductList from '../components/ProductList';
 import BaseLayout from '../Layouts/BaseLayout';
-import students from './../data/students.json';
 
-const Students = () => {
+import products from './../data/products.json';
+
+const Products = () => {
     return (
         <BaseLayout>
             <h1 className="py-10 font-bold text-center underline uppercase transition-all duration-500 select-none text-7xl decoration-react hover:decoration-gray-200 hover:text-react">
-                Students Tables
+                Products List
             </h1>
-            <StudentTable students={students} />
+            <ProductList products={products} />
         </BaseLayout>
     );
 };
 
-export default Students;
+export default Products;

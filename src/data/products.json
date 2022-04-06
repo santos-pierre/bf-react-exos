@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "React Mug",
+        "price": 15,
+        "promo": false,
+        "rating": 4,
+        "countReview": 50
+    },
+    {
+        "id": 2,
+        "name": "Vue Mug",
+        "price": 15,
+        "promo": false,
+        "rating": 4,
+        "countReview": 35
+    },
+    {
+        "id": 3,
+        "name": "Svelte Mug",
+        "price": 10,
+        "promo": true,
+        "rating": 5,
+        "countReview": 100
+    },
+    {
+        "id": 4,
+        "name": "Laravel Hat",
+        "price": 10,
+        "promo": false,
+        "rating": 5,
+        "countReview": 80
+    },
+    {
+        "id": 5,
+        "name": "PHP Shirt",
+        "price": 20,
+        "promo": true,
+        "rating": 3,
+        "countReview": 20
+    }
+]

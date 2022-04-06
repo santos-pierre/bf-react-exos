@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@heroicons/react': ^1.0.6
   '@types/react': ^17.0.43
   '@types/react-dom': ^17.0.14
   '@vitejs/plugin-react': ^1.0.7
@@ -17,6 +18,7 @@ specifiers:
   vite: ^2.9.0
 
 dependencies:
+  '@heroicons/react': 1.0.6_react@18.0.0
   clsx: 1.1.1
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
@@ -310,6 +312,14 @@ packages:
       '@babel/helper-validator-identifier': 7.16.7
       to-fast-properties: 2.0.0
     dev: true
+
+  /@heroicons/react/1.0.6_react@18.0.0:
+    resolution: {integrity: sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.0.0
+    dev: false
 
   /@jridgewell/resolve-uri/3.0.5:
     resolution: {integrity: sha512-VPeQ7+wH0itvQxnG+lIzWgkysKIr3L9sslimFW55rHMdGu/qCQ5z5h9zq4gI8uBtqkpHhsF4Z/OwExufUCThew==}
