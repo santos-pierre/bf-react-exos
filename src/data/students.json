@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "firstname": "Zaza",
+        "lastname": "Vanderquack",
+        "result": 17
+    },
+    {
+        "id": 2,
+        "firstname": "Riri",
+        "lastname": "Duck",
+        "result": 5
+    },
+    {
+        "id": 3,
+        "firstname": "Fifi",
+        "lastname": "Duck",
+        "result": 10
+    },
+    {
+        "id": 4,
+        "firstname": "Loulou",
+        "lastname": "Duck",
+        "result": 9
+    },
+    {
+        "id": 5,
+        "firstname": "Balthazar",
+        "lastname": "Picsou",
+        "result": 18
+    },
+    {
+        "id": 6,
+        "firstname": "Archibald",
+        "lastname": "Gripsou",
+        "result": null
+    },
+    {
+        "id": 7,
+        "firstname": "Della",
+        "lastname": "Duck",
+        "result": 19
+    },
+    {
+        "id": 8,
+        "firstname": "Pierre",
+        "lastname": "Santos Batista Braga",
+        "result": 20
+    },
+    {
+        "id": 9,
+        "firstname": "Gontran",
+        "lastname": "Bonheur",
+        "result": 3
+    }
+]
