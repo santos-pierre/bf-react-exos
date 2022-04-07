@@ -1,4 +1,4 @@
-import { ChangeEvent, ChangeEventHandler, useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import PageTitle from '../components/ui/Title/PageTitle';
 import BaseLayout from '../Layouts/BaseLayout';
 

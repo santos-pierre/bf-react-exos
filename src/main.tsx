@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Students from './pages/Students';
 import Products from './pages/Products';
 import MarkdownEditor from './pages/MarkdownEditor';
+import CounterPage from './pages/CounterPage';
 
 const root = createRoot(document.getElementById('root')!);
 root.render(
@@ -13,6 +14,7 @@ root.render(
             <Route path="/" element={<Home />} />
             <Route path="/students" element={<Students />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/counter" element={<CounterPage />} />
             <Route path="/editor" element={<MarkdownEditor />} />
         </Routes>
     </BrowserRouter>

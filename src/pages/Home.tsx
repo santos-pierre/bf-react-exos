@@ -17,6 +17,10 @@ const links: Link[] = [
         url: '/products',
     },
     {
+        name: 'counter',
+        url: '/counter',
+    },
+    {
         name: 'markdown editor',
         url: '/editor',
     },
