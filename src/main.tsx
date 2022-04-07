@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Students from './pages/Students';
 import Products from './pages/Products';
+import MarkdownEditor from './pages/MarkdownEditor';
 
 const root = createRoot(document.getElementById('root')!);
 root.render(
@@ -12,6 +13,7 @@ root.render(
             <Route path="/" element={<Home />} />
             <Route path="/students" element={<Students />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/editor" element={<MarkdownEditor />} />
         </Routes>
     </BrowserRouter>
 );

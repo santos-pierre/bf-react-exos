@@ -16,6 +16,10 @@ const links: Link[] = [
         name: 'product list',
         url: '/products',
     },
+    {
+        name: 'markdown editor',
+        url: '/editor',
+    },
 ];
 
 const Home = () => {
