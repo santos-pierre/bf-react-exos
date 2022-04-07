@@ -21,6 +21,10 @@ const links: Link[] = [
         url: '/counter',
     },
     {
+        name: 'calculator',
+        url: '/calculator',
+    },
+    {
         name: 'markdown editor',
         url: '/editor',
     },
