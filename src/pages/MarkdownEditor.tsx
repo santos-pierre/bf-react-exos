@@ -1,12 +1,15 @@
 import { ChangeEvent, useState } from 'react';
 import PageTitle from '../components/ui/Title/PageTitle';
 import BaseLayout from '../Layouts/BaseLayout';
+import { micromark } from 'micromark';
 
 const MarkdownEditor = () => {
     const [content, setContent] = useState<string>('');
+    const [markdown, setMarkdown] = useState<string>('');
 
     const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
         setContent(event.target.value);
+        setMarkdown(micromark(event.target.value));
     };
 
     return (
@@ -22,15 +25,15 @@ const MarkdownEditor = () => {
                 </div>
                 <div className="grid grid-cols-[50px,1fr]">
                     <div className="bg-gray-700" />
-                    {/* <div className="bg-gray-600" /> */}
                     <textarea
                         className="p-2 bg-gray-600 resize-none focus:outline-none"
                         value={content}
                         onChange={handleChange}
-                    ></textarea>
+                    />
                 </div>
                 <div className="rounded-b-md bg-sky-600"></div>
             </div>
+            <div className="prose prose-invert" dangerouslySetInnerHTML={{ __html: markdown }}></div>
         </BaseLayout>
     );
 };
