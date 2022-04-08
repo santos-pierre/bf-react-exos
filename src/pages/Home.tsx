@@ -25,6 +25,10 @@ const links: Link[] = [
         url: '/calculator',
     },
     {
+        name: 'todo list',
+        url: '/todolist',
+    },
+    {
         name: 'markdown editor',
         url: '/editor',
     },
@@ -40,7 +44,9 @@ const Home = () => {
                         <NavLink to={link.url} key={link.name} className="block">
                             <div className="relative bg-black cursor-pointer group">
                                 <div className="px-5 py-3 transition-transform duration-200 border-2 border-black bg-react group-hover:-translate-x-1 group-hover:translate-y-1">
-                                    <span className="text-4xl font-bold capitalize">{link.name}</span>
+                                    <span className="text-4xl font-bold capitalize">
+                                        {link.name}
+                                    </span>
                                 </div>
                                 <div className="absolute inset-0 w-full h-full border-2 border-black -z-10 "></div>
                             </div>

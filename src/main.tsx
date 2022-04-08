@@ -7,6 +7,7 @@ import Products from './pages/Products';
 import MarkdownEditor from './pages/MarkdownEditor';
 import CounterPage from './pages/CounterPage';
 import CalculatorPage from './pages/CalculatorPage';
+import TodoListPage from './pages/TodoListPage';
 
 const root = createRoot(document.getElementById('root')!);
 root.render(
@@ -17,6 +18,7 @@ root.render(
             <Route path="/products" element={<Products />} />
             <Route path="/counter" element={<CounterPage />} />
             <Route path="/editor" element={<MarkdownEditor />} />
+            <Route path="/todolist" element={<TodoListPage />} />
             <Route path="/calculator" element={<CalculatorPage />} />
         </Routes>
     </BrowserRouter>
