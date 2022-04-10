@@ -8,30 +8,30 @@ type Operator = {
     display: string;
 };
 
-const Calculator = () => {
-    const operators: Operator[] = [
-        {
-            id: 'plus-operator',
-            value: '+',
-            display: '+',
-        },
-        {
-            id: 'minus-operator',
-            value: '-',
-            display: '-',
-        },
-        {
-            id: 'divide-operator',
-            value: '/',
-            display: '/',
-        },
-        {
-            id: 'mult-operator',
-            value: '*',
-            display: 'x',
-        },
-    ];
+const operators: Operator[] = [
+    {
+        id: 'plus-operator',
+        value: '+',
+        display: '+',
+    },
+    {
+        id: 'minus-operator',
+        value: '-',
+        display: '-',
+    },
+    {
+        id: 'divide-operator',
+        value: '/',
+        display: '/',
+    },
+    {
+        id: 'mult-operator',
+        value: '*',
+        display: 'x',
+    },
+];
 
+const Calculator = () => {
     const [numberLeft, setNumberLeft] = useState<string>('');
     const [numberRight, setNumberRight] = useState<string>('');
     const [operator, setOperator] = useState<Operator>(operators[0]);
@@ -123,7 +123,9 @@ const Calculator = () => {
                                                     <>
                                                         <span
                                                             className={clsx(
-                                                                selected ? 'font-semibold' : 'font-normal',
+                                                                selected
+                                                                    ? 'font-semibold'
+                                                                    : 'font-normal',
                                                                 'block truncate text-center'
                                                             )}
                                                         >

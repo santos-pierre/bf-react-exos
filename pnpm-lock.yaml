@@ -4,6 +4,7 @@ specifiers:
   '@headlessui/react': ^1.5.0
   '@heroicons/react': ^1.0.6
   '@tailwindcss/forms': ^0.5.0
+  '@tailwindcss/line-clamp': ^0.3.1
   '@tailwindcss/typography': ^0.5.2
   '@types/react': ^17.0.43
   '@types/react-dom': ^17.0.14
@@ -11,6 +12,7 @@ specifiers:
   autoprefixer: ^10.4.4
   clsx: ^1.1.1
   micromark: ^3.0.10
+  nanoid: ^3.3.2
   postcss: ^8.4.12
   prettier: ^2.6.2
   prettier-plugin-tailwindcss: ^0.1.8
@@ -24,8 +26,10 @@ specifiers:
 dependencies:
   '@headlessui/react': 1.5.0_react-dom@18.0.0+react@18.0.0
   '@heroicons/react': 1.0.6_react@18.0.0
+  '@tailwindcss/line-clamp': 0.3.1_tailwindcss@3.0.23
   clsx: 1.1.1
   micromark: 3.0.10
+  nanoid: 3.3.2
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
   react-router-dom: 6.3.0_react-dom@18.0.0+react@18.0.0
@@ -393,6 +397,14 @@ packages:
       mini-svg-data-uri: 1.4.4
       tailwindcss: 3.0.23_autoprefixer@10.4.4
     dev: true
+
+  /@tailwindcss/line-clamp/0.3.1_tailwindcss@3.0.23:
+    resolution: {integrity: sha512-pNr0T8LAc3TUx/gxCfQZRe9NB2dPEo/cedPHzUGIPxqDMhgjwNm6jYxww4W5l0zAsAddxr+XfZcqttGiFDgrGg==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
+    dependencies:
+      tailwindcss: 3.0.23_autoprefixer@10.4.4
+    dev: false
 
   /@tailwindcss/typography/0.5.2_tailwindcss@3.0.23:
     resolution: {integrity: sha512-coq8DBABRPFcVhVIk6IbKyyHUt7YTEC/C992tatFB+yEx5WGBQrCgsSFjxHUr8AWXphWckadVJbominEduYBqw==}
@@ -1308,7 +1320,6 @@ packages:
     resolution: {integrity: sha512-CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-    dev: true
 
   /node-releases/2.0.2:
     resolution: {integrity: sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==}

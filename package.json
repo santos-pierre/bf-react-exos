@@ -10,8 +10,10 @@
     "dependencies": {
         "@headlessui/react": "^1.5.0",
         "@heroicons/react": "^1.0.6",
+        "@tailwindcss/line-clamp": "^0.3.1",
         "clsx": "^1.1.1",
         "micromark": "^3.0.10",
+        "nanoid": "^3.3.2",
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
         "react-router-dom": "6"
