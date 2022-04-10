@@ -13,3 +13,11 @@ export type Product = {
     rating: number;
     countReview: number;
 };
+
+export type Todo = {
+    id: string;
+    title: string;
+    description?: string;
+    priority: 'low' | 'normal' | 'high';
+    done: boolean;
+};
